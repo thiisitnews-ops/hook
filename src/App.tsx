@@ -1,3 +1,4 @@
+<h1>🚀 Hook AI App (Fixed Build)</h1>
 import React from 'react'
 
 const App: React.FC = () => {
