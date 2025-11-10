@@ -1,11 +1,10 @@
-<h1>🚀 Hook AI App (Fixed Build)</h1>
 import React from 'react'
+import LoginPage from './pages/LoginPage'
 
-const App: React.FC = () => {
+function App() {
   return (
-    <div style={{ textAlign: 'center', padding: '2rem' }}>
-      <h1>🚀 Hook AI App is Live!</h1>
-      <p>If you see this, your Vercel deployment works 🎉</p>
+    <div>
+      <LoginPage />
     </div>
   )
 }
